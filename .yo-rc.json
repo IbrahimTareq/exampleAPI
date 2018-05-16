@@ -1,0 +1,11 @@
+{
+  "generator-openapi-repo": {
+    "importExistingSpec": true,
+    "importedSpec": "C:\\Users\\IbrahimTareq\\Desktop\\swagger.json",
+    "name": "PetStore",
+    "repo": "IbrahimTareq/exampleAPI",
+    "splitSpec": false,
+    "samples": true,
+    "installSwaggerUI": true
+  }
+}
