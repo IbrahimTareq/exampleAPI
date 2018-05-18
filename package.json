@@ -1,26 +1,27 @@
 {
-  "name": "PetStore-openapi-spec",
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
   "version": "0.0.1",
-  "dependencies": {
-    "bower": "^1.7.7",
-    "connect": "^3.4.1",
-    "cors": "^2.7.1",
-    "deploy-to-gh-pages": "^1.1.0",
-    "gulp": "^3.9.1",
-    "gulp-connect": "^4.2.0",
-    "gulp-util": "^3.0.7",
-    "portfinder": "^1.0.3",
-    "shelljs": "^0.7.0",
-    "swagger-repo": "^1.0.0",
-    "swagger-ui": "^2.1.4"
-  },
-  "private": true,
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
   "scripts": {
-    "deploy": "npm run build && deploy-to-gh-pages --update web_deploy",
-    "build": "node ./scripts/build.js",
-    "swagger": "swagger-repo",
-    "test": "swagger-repo validate",
-    "start": "gulp serve",
-    "deploy-branch": "node ./scripts/deploy-branch.js"
-  }
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
